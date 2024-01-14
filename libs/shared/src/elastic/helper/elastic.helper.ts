@@ -1,0 +1,1 @@
+export const dateType = "yyyy/MM/dd HH:mm:ss Z||yyyy/MM/dd Z"

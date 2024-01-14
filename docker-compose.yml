@@ -1,0 +1,106 @@
+version: '3.9'
+services:
+  mongodb-primary:
+    image: bitnami/mongodb:latest
+    hostname: mongodb-primary
+    networks:
+      - mongo-cluster
+      - nestjs-2k24-cluster
+    volumes:
+      - mongo-dni-data:/bitnami
+    env_file:
+      - .env
+    environment:
+      - MONGODB_REPLICA_SET_MODE=primary
+      - MONGODB_ADVERTISED_HOSTNAME=mongodb-primary
+      - MONGODB_ROOT_USER=${MONGO_ROOT_USERNAME}
+      - MONGODB_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD}
+      - MONGODB_USERNAME=${MONGO_PRIMARY_USERNAME}
+      - MONGODB_PASSWORD=${MONGO_PRIMARY_PASSWORD}
+      - MONGODB_DATABASE=${MONGO_DATABASE}
+      - MONGODB_REPLICA_SET_KEY=replicasetkey123
+    ports:
+      - ${MONGO_PRIMARY_PORT}:27017
+
+  mongodb-secondary:
+    image: bitnami/mongodb:latest
+    hostname: mongodb-secondary
+    networks:
+      - mongo-cluster
+      - nestjs-2k24-cluster
+    env_file:
+      - .env
+    depends_on:
+      - mongodb-primary
+    environment:
+      - MONGODB_REPLICA_SET_MODE=secondary
+      - MONGODB_ADVERTISED_HOSTNAME=mongodb-secondary
+      - MONGODB_PRIMARY_HOST=mongodb-primary
+      - MONGODB_PRIMARY_PORT_NUMBER=${MONGO_PRIMARY_PORT}
+      - MONGODB_PRIMARY_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD}
+      - MONGODB_REPLICA_SET_KEY=replicasetkey123
+
+  redis:
+    image: bitnami/redis:latest
+    hostname: redis
+    container_name: redis
+    networks:
+      - nestjs-2k24-cluster
+    volumes:
+      - redis-dni-data:/bitnami/redis/data
+    environment:
+      - REDIS_IO_THREADS=4
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
+    ports:
+      - ${REDIS_PORT}:6379
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    hostname: rabbitmq
+    container_name: rabbitmq
+    env_file:
+      - .env
+    networks:
+      - nestjs-2k24-cluster
+    environment:
+      - RABBITMQ_DEFAULT_VHOST=${RMQ_VHOST}
+      - RABBITMQ_DEFAULT_USER=${RMQ_USERNAME}
+      - RABBITMQ_DEFAULT_PASS=${RMQ_PASSWORD}
+    volumes:
+      - rabbitmq-dni-data:/var/lib/rabbitmq 
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+
+  zookeeper:
+    image: wurstmeister/zookeeper
+    container_name: zookeeper
+    networks:
+      - nestjs-2k24-cluster
+    ports:
+      - "2181:2181"
+    restart: unless-stopped
+
+  kafka:
+    image: wurstmeister/kafka
+    networks:
+      - nestjs-2k24-cluster
+    container_name: kafka
+    ports:
+      - "9092:9092"
+      - "9093:9093"
+    environment:
+      KAFKA_ADVERTISED_HOST_NAME: localhost
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+    restart: unless-stopped
+
+volumes:
+  mongo-dni-data:
+    driver: local
+  redis-dni-data:
+    driver: local
+  rabbitmq-dni-data:
+    driver: local
+networks:
+  mongo-cluster: {}
+  nestjs-2k24-cluster: {}

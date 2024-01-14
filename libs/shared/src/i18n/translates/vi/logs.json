@@ -1,0 +1,8 @@
+{
+	"LOGIN": "Đã đăng nhập vào hệ thống tại địa chỉ {ip}",
+	"SYNC": {
+		"client": "Đồng bộ dữ liệu cho email: {email}"
+	},
+	"DELETE": "Đã xoá {collection_name} [{deleted_code}] {deleted_name} ra khỏi hệ thống.",
+  "CREATE_ACCOUNT" : "Đã tạo tài khoản ${email}."
+}

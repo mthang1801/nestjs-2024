@@ -1,0 +1,167 @@
+[
+	{
+		"name": "Báo cáo tổng hợp",
+		"code": "SUMMARY_REPORT",
+		"parent_code": null,
+		"description": "Báo cáo tổng hợp",
+		"fe_route": "",
+		"display_status": true,
+		"resouce_code": null,
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN"],
+		"position": 0
+	},
+	{
+		"name": "Khách hàng",
+		"code": "SUMMARY_CLIENT_REPORT",
+		"parent_code": "SUMMARY_REPORT",
+		"description": "Báo cáo Khách hàng",
+		"fe_route": "/report-clients",
+		"display_status": true,
+		"resouce_code": "REPORT",
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN"],
+		"position": 0
+	},
+	{
+		"name": "Nhân viên",
+		"code": "SUMMARY_USER_REPORT",
+		"parent_code": "SUMMARY_REPORT",
+		"description": "Báo cáo Nhân viên",
+		"fe_route": "/report-users",
+		"display_status": true,
+		"resouce_code": "REPORT",
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN"],
+		"position": 1
+	},
+	{
+		"name": "Thiết lập chung",
+		"code": "COMMON_SETTING",
+		"parent_code": null,
+		"description": "Thiết lập chung",
+		"fe_route": "",
+		"display_status": true,
+		"resouce_code": null,
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN"],
+		"position": 1
+	},
+	{
+		"name": "Người dùng hệ thống",
+		"code": "SYSTEM_USER",
+		"parent_code": "COMMON_SETTING",
+		"description": "Người dùng hệ thống",
+		"fe_route": "/system-users",
+		"display_status": true,
+		"resouce_code": "USER",
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN"],
+		"position": 0
+	},
+	{
+		"name": "Vai trò người dùng",
+		"code": "ROLE",
+		"parent_code": "COMMON_SETTING",
+		"description": "Người dùng hệ thống",
+		"fe_route": "/roles",
+		"display_status": true,
+		"resouce_code": "ROLE",
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN"],
+		"position": 1
+	},
+	{
+		"name": "Lịch sử thao tác",
+		"code": "ACTION_HISTORY",
+		"parent_code": "COMMON_SETTING",
+		"description": "Lịch sử thao tác",
+		"fe_route": "/action-histories",
+		"display_status": true,
+		"resouce_code": "ACTION_HISTORY",
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN"],
+		"position": 2
+	},
+	{
+		"name": "Cấu hình chiết khấu",
+		"code": "REBATE_LEVEL",
+		"parent_code": "COMMON_SETTING",
+		"description": "Cấu hình chiết khấu",
+		"fe_route": "/rebate-level",
+		"display_status": true,
+		"resouce_code": "REBATE_LEVEL",
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN"],
+		"position": 3
+	},
+	{
+		"name": "Quản lý nhóm",
+		"code": "GROUP",
+		"parent_code": "COMMON_SETTING",
+		"description": "Quản lý nhóm",
+		"fe_route": "/groups",
+		"display_status": true,
+		"resouce_code": "GROUP",
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN"],
+		"position": 4
+	},
+	{
+		"name": "Quản lý biểu mẫu",
+		"code": "FORM",
+		"parent_code": "COMMON_SETTING",
+		"description": "Quản lý biểu mẫu",
+		"fe_route": "/forms",
+		"display_status": true,
+		"resouce_code": "FORM",
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN"],
+		"position": 5
+	},
+	{
+		"name": "Quản lý khách hàng",
+		"code": "CLIENT_MANAGEMENT",
+		"parent_code": null,
+		"description": "Quản lý khách hàng",
+		"fe_route": "",
+		"display_status": true,
+		"resouce_code": null,
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN", "SALE"],
+		"position": 2
+	},
+	{
+		"name": "Danh sách",
+		"code": "CLIENT",
+		"parent_code": "CLIENT_MANAGEMENT",
+		"description": "Quản lý khách hàng",
+		"fe_route": "/clients",
+		"display_status": true,
+		"resouce_code": "CLIENT",
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN", "SALE"],
+		"position": 0
+	},
+	{
+		"name": "Trả lời biểu mẫu",
+		"code": "FORM_ANSWER",
+		"parent_code": "CLIENT_MANAGEMENT",
+		"description": "Trả lời biểu mẫu",
+		"fe_route": "/form-answer",
+		"display_status": true,
+		"resouce_code": "FORM_ANSWER",
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN", "SALE"],
+		"position": 1
+	},
+	{
+		"name": "Đối tác",
+		"code": "PARTNER",
+		"parent_code": null,
+		"description": "Đối tác",
+		"fe_route": "",
+		"display_status": true,
+		"resouce_code": null,
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN", "SALE"],
+		"position": 3
+	},
+	{
+		"name": "Kiểm tra dữ liệu đối tác",
+		"code": "PARTNER_AFFILIATION",
+		"parent_code": "PARTNER",
+		"description": "Kiểm tra dữ liệu đối tác",
+		"fe_route": "/partner-affiliation",
+		"display_status": true,
+		"resouce_code": "PARTNER_AFFILIATION",
+		"inherited_global_roles": ["SUPER_ADMIN", "ADMIN", "SALE"],
+		"position": 0
+	}
+]

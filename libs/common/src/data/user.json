@@ -1,0 +1,542 @@
+[
+  {
+      "deleted_at": null,
+      "name": "Cao Thanh Tùng",
+      "email": "tungct.dniinvest@gmail.com",
+      "phone": "0886186363",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-08-31T07:50:37.428Z",
+      "updated_at": "2023-09-20T08:28:08.929Z",
+      "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZjA0NjRkMTcyZThkYjQzNzI2ODg0OSIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNjk0NTcxNjQzLCJleHAiOjE2OTUxNzY0NDN9.Kc8cuTYrU92_zqSTiGOHelp4NOVmNPNjc_a-0eBEcmU",
+      "status": "ACTIVE",
+      "gender": "MALE",
+      "id": "64f0464d172e8db437268849"
+  },
+  {
+      "deleted_at": null,
+      "name": "Võ Quốc Phòng",
+      "email": "phongvqdniinvest@gmail.com",
+      "phone": "0934418768",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-08-31T07:50:54.144Z",
+      "updated_at": "2023-09-17T22:45:38.308Z",
+      "status": "ACTIVE",
+      "gender": "MALE",
+      "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZjA0NjVlMTcyZThkYjQzNzI2ODg0YiIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNjk0MDAyODM4LCJleHAiOjE2OTQ2MDc2Mzh9.5xj3_5PgTp5uPHUG_ppMdEPoFzlNLZFp_vhkPEzyb2o",
+      "id": "64f0465e172e8db43726884b"
+  },
+  {
+      "deleted_at": null,
+      "name": "Nguyễn Thị Hằng",
+      "email": "hangth191@gmail.com",
+      "phone": "0989957007",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-08-31T07:51:14.997Z",
+      "updated_at": "2023-09-17T22:45:38.308Z",
+      "status": "ACTIVE",
+      "gender": "MALE",
+      "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZjA0NjcyMTcyZThkYjQzNzI2ODg0ZCIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNjkzOTg2NDk0LCJleHAiOjE2OTQ1OTEyOTR9.rLtF7snCiJjysatAzgPB6KDgqabGpN2xq-BRGkqZTcs",
+      "id": "64f04672172e8db43726884d"
+  },
+  {
+      "deleted_at": null,
+      "name": "Ngô Thanh Phú",
+      "email": "marketingdnivietnam@gmail.com",
+      "phone": "0888001611",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-08-31T07:51:19.853Z",
+      "updated_at": "2023-09-17T22:45:38.308Z",
+      "status": "ACTIVE",
+      "gender": "MALE",
+      "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZjA0Njc3MTcyZThkYjQzNzI2ODg0ZiIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNjkzOTY4ODM3LCJleHAiOjE2OTQ1NzM2Mzd9.vA2aXh9Cdox8-PzM6Yjqbu6oszRuvXOXC7EBMM8GrcQ",
+      "id": "64f04677172e8db43726884f"
+  },
+  {
+      "deleted_at": null,
+      "name": "Trần Tuấn Anh",
+      "email": "tuananh123qt@gmail.com",
+      "phone": "0987687465",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-08-31T07:51:24.080Z",
+      "updated_at": "2023-09-17T22:45:38.308Z",
+      "status": "ACTIVE",
+      "gender": "MALE",
+      "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZjA0NjdjMTcyZThkYjQzNzI2ODg1MSIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNjk0MDcwOTc2LCJleHAiOjE2OTQ2NzU3NzZ9.auVawNW5AuXZVMjqOC3kc92p34kQrBBjbVTi74NfrHA",
+      "id": "64f0467c172e8db437268851"
+  },
+  {
+      "deleted_at": null,
+      "name": "Phan Trọng Anh",
+      "email": "tronganh.cm1@gmail.com",
+      "phone": "0932728988",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-08-31T07:51:28.669Z",
+      "updated_at": "2023-09-20T01:26:25.635Z",
+      "status": "ACTIVE",
+      "gender": "MALE",
+      "id": "64f04680172e8db437268853"
+  },
+  {
+      "deleted_at": null,
+      "name": "Nguyễn Quỳnh Anh",
+      "email": "nguyenquynhanhhvhk@gmail.com",
+      "phone": "0335551038",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-08-31T07:51:31.820Z",
+      "updated_at": "2023-09-17T22:45:38.308Z",
+      "status": "ACTIVE",
+      "gender": "MALE",
+      "id": "64f04683172e8db437268855"
+  },
+  {
+      "deleted_at": null,
+      "name": "Nguyễn Ngọc Hà",
+      "email": "ngocha88tb@gmail.com",
+      "phone": "0983232485",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-08-31T07:51:34.876Z",
+      "updated_at": "2023-09-23T04:03:02.111Z",
+      "status": "ACTIVE",
+      "gender": "MALE",
+      "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZjA0Njg2MTcyZThkYjQzNzI2ODg1NyIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNjk1NDQxNzgxLCJleHAiOjE2OTYwNDY1ODF9.bfVFi3hkkj6DFbVtPYBM2JpRY5CtEZI9z6cLzU6Xm5w",
+      "id": "64f04686172e8db437268857"
+  },
+  {
+      "deleted_at": null,
+      "name": "IT DNI Invest",
+      "email": "it.dniinvest@gmail.com",
+      "phone": "0987654312",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-08-31T07:51:49.444Z",
+      "updated_at": "2023-09-24T04:02:18.913Z",
+      "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZjA0Njk1MTcyZThkYjQzNzI2ODg1OSIsInJvbGUiOiJVU0VSIiwiaWF0IjoxNjk1NDM1Mjk3LCJleHAiOjE2OTYwNDAwOTd9.iYTLjQ9riEqbh87-Xb8qn0HXrhn-Gl4im63ZXDSx0T0",
+      "status": "ACTIVE",
+      "gender": "MALE",
+      "id": "64f04695172e8db437268859"
+  },
+  {
+      "deleted_at": null,
+      "name": "Đoàn Văn Nam",
+      "email": "namdv.invest@gmail.com",
+      "phone": "0971414593",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-08-31T07:52:04.074Z",
+      "updated_at": "2023-09-17T22:45:38.308Z",
+      "status": "ACTIVE",
+      "gender": "MALE",
+      "id": "64f046a4172e8db43726885b"
+  },
+  {
+      "deleted_at": null,
+      "name": "Hà Tân",
+      "email": "tandev94@gmail.com",
+      "phone": "0868608454",
+      "status": "ACTIVE",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "gender": "MALE",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-09-04T17:48:07.015Z",
+      "updated_at": "2023-09-20T00:59:25.242Z",
+      "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZjYxODU3NmQxNDVmZDlhMDI1ODRhZiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTY5NTE3MTU2NSwiZXhwIjoxNjk1Nzc2MzY1fQ.GOkvkixuYbpdefhIT-3oYQSUNSD-wfL6Wrg1UrfmkwQ",
+      "id": "64f618576d145fd9a02584af"
+  },
+  {
+      "deleted_at": null,
+      "name": "Hà Tân Test1",
+      "email": "tandev96@gmail.com",
+      "phone": "0868608456",
+      "status": "ACTIVE",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "gender": "MALE",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-09-04T17:54:12.366Z",
+      "updated_at": "2023-09-17T22:45:38.308Z",
+      "id": "64f619c46d145fd9a02584d7"
+  },
+  {
+      "name": "Mai Thang1",
+      "status": "ACTIVE",
+      "deleted_at": null,
+      "email": "mthang1801@gmail.com",
+      "phone": "0939323701",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "gender": "MALE",
+      "contact": [
+          {
+              "province_name": "HCM",
+              "district_name": "Go Vap",
+              "ward_name": "10",
+              "address": "123"
+          }
+      ],
+      "verifies": [],
+      "created_at": "2023-09-12T14:47:57.208Z",
+      "updated_at": "2023-09-24T13:14:08.128Z",
+      "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1MDA3YTFkYjE5YzcyN2MxYWRiNjQ1ZSIsImlhdCI6MTY5NTU2MTI0NywiZXhwIjoxNjk2MTY2MDQ3fQ.tf2QkW6F_SeMAljY5F-LIKCVosHSm_ZnwPfyd-Eg9Ao",
+      "role_info": {
+          "menu": [],
+          "status": "INACTIVE",
+          "deleted_at": null,
+          "id": "6510383b392cbfae75b9a307"
+      },
+      "id": "65007a1db19c727c1adb645e"
+  },
+  {
+      "name": "HÀ HÀ TÂN TÂN",
+      "status": "ACTIVE",
+      "deleted_at": null,
+      "email": "tandev9444@gmail.com",
+      "phone": "0868608421",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "gender": "MALE",
+      "contact": [],
+      "verifies": [],
+      "created_at": "2023-09-15T01:23:10.438Z",
+      "updated_at": "2023-09-17T22:45:38.308Z",
+      "id": "6503b1fe72b5062784ce1526"
+  },
+  {
+      "name": "Test 1",
+      "code": "USREA91520A547",
+      "status": "ACTIVE",
+      "deleted_at": null,
+      "email": "test1@gmail.com",
+      "phone": "0939323702",
+      "avatar": "https://st3.depositphotos.com/9998432/13335/v/600/depositphotos_133352156-stock-illustration-default-placeholder-profile-icon.jpg",
+      "gender": "FEMALE",
+      "contact": [
+          {
+              "province_name": "HCM",
+              "district_name": "Go Vap",
+              "ward_name": "10",
+              "address": "123"
+          }
+      ],
+      "role": {
+          "name": "MVT ADMIN",
+          "code": "MVTADMIN",
+          "status": "ACTIVE",
+          "deleted_at": null,
+          "menu": [
+              {
+                  "deleted_at": null,
+                  "name": "CLIENT",
+                  "code": "CLIENT",
+                  "description": "CLIENT",
+                  "status": "INACTIVE",
+                  "display_status": false,
+                  "created_at": "2023-09-05T16:24:25.376Z",
+                  "updated_at": "2023-09-05T16:24:25.376Z",
+                  "permissions": [
+                      {
+                          "permission": "MANAGE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "CREATE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "UPDATE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "DELETE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "VIEW_LIST",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "VIEW_DETAIL",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "IMPORT",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "EXPORT",
+                          "status": "ACTIVE"
+                      }
+                  ],
+                  "created_by_user": null,
+                  "id": "64f756390e124d7ba25e6de5"
+              },
+              {
+                  "deleted_at": null,
+                  "name": "MASTER_DNI",
+                  "code": "MASTER_DNI",
+                  "description": "MASTER_DNI",
+                  "status": "INACTIVE",
+                  "display_status": false,
+                  "created_at": "2023-09-05T16:24:25.376Z",
+                  "updated_at": "2023-09-05T16:24:25.376Z",
+                  "permissions": [],
+                  "created_by_user": null,
+                  "id": "64f756390e124d7ba25e6de6"
+              },
+              {
+                  "deleted_at": null,
+                  "name": "AUTH",
+                  "code": "AUTH",
+                  "description": "AUTH",
+                  "status": "INACTIVE",
+                  "display_status": false,
+                  "created_at": "2023-09-05T16:24:25.376Z",
+                  "updated_at": "2023-09-05T16:24:25.376Z",
+                  "permissions": [
+                      {
+                          "permission": "MANAGE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "CREATE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "UPDATE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "DELETE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "VIEW_LIST",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "VIEW_DETAIL",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "IMPORT",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "EXPORT",
+                          "status": "ACTIVE"
+                      }
+                  ],
+                  "created_by_user": null,
+                  "id": "64f756390e124d7ba25e6de3"
+              },
+              {
+                  "deleted_at": null,
+                  "name": "USER",
+                  "code": "USER",
+                  "description": "USER",
+                  "status": "INACTIVE",
+                  "display_status": false,
+                  "created_at": "2023-09-05T16:24:25.376Z",
+                  "updated_at": "2023-09-05T16:24:25.376Z",
+                  "permissions": [
+                      {
+                          "permission": "MANAGE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "CREATE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "UPDATE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "DELETE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "VIEW_LIST",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "VIEW_DETAIL",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "IMPORT",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "EXPORT",
+                          "status": "ACTIVE"
+                      }
+                  ],
+                  "created_by_user": null,
+                  "id": "64f756390e124d7ba25e6de4"
+              },
+              {
+                  "deleted_at": null,
+                  "name": "ROLE",
+                  "code": "ROLE",
+                  "description": "ROLE",
+                  "status": "INACTIVE",
+                  "display_status": false,
+                  "created_at": "2023-09-05T16:24:25.377Z",
+                  "updated_at": "2023-09-05T16:24:25.377Z",
+                  "permissions": [
+                      {
+                          "permission": "MANAGE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "CREATE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "UPDATE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "DELETE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "VIEW_LIST",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "VIEW_DETAIL",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "IMPORT",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "EXPORT",
+                          "status": "ACTIVE"
+                      }
+                  ],
+                  "created_by_user": null,
+                  "id": "64f756390e124d7ba25e6de7"
+              },
+              {
+                  "deleted_at": null,
+                  "name": "PARTNER_AFFILATION",
+                  "code": "PARTNER_AFFILATION",
+                  "description": "PARTNER_AFFILATION",
+                  "status": "INACTIVE",
+                  "display_status": false,
+                  "created_at": "2023-09-05T16:24:25.377Z",
+                  "updated_at": "2023-09-05T16:24:25.377Z",
+                  "permissions": [
+                      {
+                          "permission": "MANAGE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "CREATE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "UPDATE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "DELETE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "VIEW_LIST",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "VIEW_DETAIL",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "IMPORT",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "EXPORT",
+                          "status": "ACTIVE"
+                      }
+                  ],
+                  "created_by_user": null,
+                  "id": "64f756390e124d7ba25e6de8"
+              },
+              {
+                  "deleted_at": null,
+                  "name": "FORM",
+                  "code": "FORM",
+                  "description": "FORM",
+                  "status": "INACTIVE",
+                  "display_status": false,
+                  "created_at": "2023-09-08T23:13:57.566Z",
+                  "updated_at": "2023-09-08T23:13:57.566Z",
+                  "created_by_user": null,
+                  "permissions": [
+                      {
+                          "permission": "MANAGE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "CREATE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "UPDATE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "DELETE",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "VIEW_LIST",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "VIEW_DETAIL",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "IMPORT",
+                          "status": "ACTIVE"
+                      },
+                      {
+                          "permission": "EXPORT",
+                          "status": "ACTIVE"
+                      }
+                  ],
+                  "id": "64fbaab6e3f5d3b12d39b379"
+              }
+          ],
+          "created_at": "2023-09-24T12:56:30.618Z",
+          "updated_at": "2023-09-24T12:56:31.306Z",
+          "id": "651031fec784b76c826674cb"
+      },
+      "verifies": [],
+      "created_at": "2023-09-24T13:18:34.560Z",
+      "updated_at": "2023-09-24T13:18:34.560Z",
+      "id": "6510372a2823368bd0292c2e"
+  }
+]

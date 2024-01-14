@@ -1,0 +1,5 @@
+{
+	"CREATED_USER": "<div>Tài khoản của bạn đã được tạo trên hệ thống DNI với mật khẩu hiện tại là <span style='color:blue'><strong>{rawPassword}</strong></span><div>Vì lý do bảo mật, bạn vui lòng không chia sẻ mật khẩu này ra bên ngoài và cập nhật lại mật khẩu mới trên hệ thống</div><div>Để được hỗ trợ vui lòng liên hệ quản trị viên</div><div>Trân trọng.</div>",
+	"SET_PASSWORD": "<div>Tài khoản của bạn đã được cập nhật trên hệ thống DNI với mật khẩu hiện tại là <span style='color:blue'><strong>{rawPassword}</strong></span><div>Vì lý do bảo mật, bạn vui lòng không chia sẻ mật khẩu này ra bên ngoài và cập nhật lại mật khẩu mới trên hệ thống</div><div>Để được hỗ trợ vui lòng liên hệ quản trị viên</div><div>Trân trọng.</div>",
+	"FORGET_PASSWORD": "<div>Tài khoản của bạn đã được yêu cầu khôi phục lại mật khẩu trên hệ thống DNI, <a href='{redirect_url}' target='_blank'>Bấm vào đường link này để cập nhật mật khẩu mới</a></div><div>Trân trọng.</div>"
+}
