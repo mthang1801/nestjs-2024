@@ -189,13 +189,13 @@ export class CommonConfig {
 	static concurrently = 20;
 	static chunk = 10000;
 	static NEST_SERVICES = {
-		NEST_2K24: {
-			portENV: 'NESTJS_2K24_PORT',
-			name: 'NESTJS_2K24',
-		},
 		EVENT_SERVICE: {
 			portENV: 'EVENTS_PORT',
-			name: 'Event Service',
+			name: 'Events service',
+		},
+		MAIN_SERVICE: {
+			portENV: 'MAIN_PORT',
+			name: 'Main Service',
 		},
 	};
 	//#endregion
@@ -375,5 +375,9 @@ export class CommonConfig {
 	static RMQGetPrefetchCount(queue) {
 		return this.RMQ_PREFETCH_COUNT[queue] ?? this.RMQ_PREFETCH_COUNT.DEFAULT;
 	}
+	//#endregion
+
+	//#region Kafka
+	static KAFKA_RETRY_ATTEMP = 3;
 	//#endregion
 }

@@ -67,32 +67,10 @@ services:
       - RABBITMQ_DEFAULT_USER=${RMQ_USERNAME}
       - RABBITMQ_DEFAULT_PASS=${RMQ_PASSWORD}
     volumes:
-      - rabbitmq-dni-data:/var/lib/rabbitmq 
+      - rabbitmq-dni-data:/var/lib/rabbitmq
     ports:
       - '5672:5672'
       - '15672:15672'
-
-  zookeeper:
-    image: wurstmeister/zookeeper
-    container_name: zookeeper
-    networks:
-      - nestjs-2k24-cluster
-    ports:
-      - "2181:2181"
-    restart: unless-stopped
-
-  kafka:
-    image: wurstmeister/kafka
-    networks:
-      - nestjs-2k24-cluster
-    container_name: kafka
-    ports:
-      - "9092:9092"
-      - "9093:9093"
-    environment:
-      KAFKA_ADVERTISED_HOST_NAME: localhost
-      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-    restart: unless-stopped
 
 volumes:
   mongo-dni-data:

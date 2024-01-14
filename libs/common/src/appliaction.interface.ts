@@ -16,7 +16,7 @@ export interface IApplication {
 		prefix: string,
 		options: GlobalPrefixOptions<string | RouteInfo>,
 	): this;
-	enableVersioning(versioningOptions: VersioningOptions): this;
+	setVersioning(versioningOptions: VersioningOptions): this;
 	setSwaggerDocument(options?: SwaggerSetupOptions): this;
 	setDefault(): this;
 	toggleMongooseLog(bool: boolean): this;

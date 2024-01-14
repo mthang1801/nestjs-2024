@@ -10,4 +10,4 @@ export * from './swagger';
 export * from './telegram';
 export * from './typeorm';
 export * from './utils';
-
+export * from "./kafka"

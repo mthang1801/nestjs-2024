@@ -63,14 +63,14 @@ class Application implements IApplication {
 
 	setGlobalPrefix(
 		prefix: string,
-		options: GlobalPrefixOptions<string | RouteInfo>,
+		options?: GlobalPrefixOptions<string | RouteInfo>,
 	) {
 		this.globalPrefix = prefix;
 		this.globalPrefixOptions = options;
 		return this;
 	}
 
-	enableVersioning(versioningOptions: VersioningOptions) {
+	setVersioning(versioningOptions: VersioningOptions) {
 		this.versioningOptions = versioningOptions;
 		return this;
 	}

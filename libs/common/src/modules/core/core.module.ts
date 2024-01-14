@@ -14,7 +14,7 @@ import * as Joi from 'joi';
 import { LibActionHistoryModule } from '../action-history';
 import { LibLogModule } from '../log/log.module';
 import { LibThrottlerModule } from '../throttler/throttler.module';
-import { LibRabbitMQModule } from '@app/shared';
+import { LibKafkaModule, LibRabbitMQModule } from '@app/shared';
 
 @Global()
 @Module({
@@ -30,6 +30,7 @@ import { LibRabbitMQModule } from '@app/shared';
 		}),
 		LibRabbitMQModule,
 		LibTelegramModule,
+		LibKafkaModule,
 		LibI18nModule,
 		LibMongoModule.forRootAsync(),
 		JwtModule.register({}),
@@ -67,6 +68,7 @@ import { LibRabbitMQModule } from '@app/shared';
 		JwtModule,
 		LibHttpModule,
 		ScheduleModule,
+		LibKafkaModule,
 	],
 })
 export class LibCoreModule {}
